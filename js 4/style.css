@@ -1,0 +1,29 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+}
+.text {
+  color: white;
+}
+
+.dark {
+  background-color: green;
+  color: black;
+}
+
+.nav {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  height: 0px;
+}
+
+.nav.show {
+  opacity: 1;
+  transform: translate(0);
+  pointer-events: auto;
+}

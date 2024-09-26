@@ -1,0 +1,14 @@
+.collapse {
+  border: 1px solid black;
+}
+.innerText {
+  display: none;
+}
+.click {
+  background-color: rgb(196, 149, 149);
+  padding: 15px;
+  cursor: pointer;
+}
+.show {
+  display: block;
+}
